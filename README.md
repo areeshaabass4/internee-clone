@@ -1,12 +1,82 @@
-# React + Vite
+git add README.md# Internee.pk Clone Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clone of the Internee.pk website built using **React.js**. 
+It is designed as a professional internship platform where students can explore virtual internships, graduate programs, student ambassador roles, and job opportunities.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page** – Hero section with internship highlights and navigation.
+- **Internships Page** – Explore various internship domains such as Web Development, AI, App Development, etc.
+- **Graduate Program** – Information and application for fresh graduates.
+- **Student Ambassador Program** – Leadership and campus engagement opportunities.
+- **Job Portal** – Job listings with filters for type and location.
+- **Sign In Page** – Split layout with Google login option and email form.
+- **Responsive Design** – Works on desktop and mobile devices.
+- **Dark Mode** – Toggle between light and dark themes.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, React Router
+- **Styling**: Custom CSS
+- **State Management**: React Hooks (`useState`, `useEffect`)
+- **Routing**: React Router DOM
+
+## 📂 Project Structure
+
+```
+/src
+  /components
+    - Header.jsx
+    - Footer.jsx
+    - Card.jsx
+  /pages
+    - Home.jsx
+    - Internships.jsx
+    - GraduateProgram.jsx
+    - StudentAmbassador.jsx
+    - JobPortal.jsx
+    - SignIn.jsx
+    - NotFound.jsx
+  App.jsx
+  index.jsx
+  styles.css
+```
+
+## ⚙️ Installation & Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/internee-clone.git
+   ```
+
+2. Navigate into the project folder:
+   ```bash
+   cd internee-clone
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit:
+   ```
+   http://localhost:5173
+   ```
+
+## 📸 Screenshots
+
+- **Home Page**
+- **Internships Grid**
+- **Graduate & Ambassador Programs**
+- **Job Portal**
+- **Sign In Page**
+
+## 📜 License
+
+This project is for educational purposes and internship showcase only. Not intended for commercial use.
